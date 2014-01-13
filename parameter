@@ -1,0 +1,11 @@
+FIRMWARE_VER:4.2.2
+MACHINE_MODEL:radxa_rock
+MACHINE_ID:007
+MANUFACTURER:RADXA
+MAGIC: 0x5041524B
+ATAG: 0x60000800
+MACHINE: 3066
+CHECK_MASK: 0x80
+KERNEL_IMG: 0x60408000
+#RECOVER_KEY: 1,1,0,20,0
+CMDLINE:console=ttyFIQ0,115200 console=tty0 root=/dev/block/mtd/by-name/linuxroot rw rootfstype=ext4 init=/sbin/init initrd=0x62000000,0x00800000 mtdparts=rk29xxnand:0x00008000@0x00002000(boot),0x00400000@0x0000A000(linuxroot),-@0x0040A000(data)
