@@ -4,7 +4,7 @@ set -e
 cd `dirname $0`
 mkdir -p Linux&&cd Linux
 
-url="http://dl.radxa.com/rock/images/ubuntu/latest/"
+url="http://dl.radxa.com/rock/images/ubuntu/2013-12-17"
 bootimg="boot-linux.img"
 rootfs="rootfs.img"
 
