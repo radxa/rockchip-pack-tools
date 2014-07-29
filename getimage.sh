@@ -4,8 +4,8 @@ set -e
 cd `dirname $0`
 mkdir -p Linux&&cd Linux
 
-url="http://dl.radxa.com/rock/images/ubuntu/2013-12-17"
-bootimg="boot-linux.img"
+url="http://dl.radxa.com/rock/images/ubuntu/partitions/"
+bootimg="boot-linux-latest.img"
 rootfs="rootfs.img"
 
 function checkfile()
