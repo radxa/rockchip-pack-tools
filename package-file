@@ -2,7 +2,7 @@
 #
 #HWDEF		HWDEF
 package-file	package-file
-bootloader	RK3188Loader(L)_V2.08.bin
+bootloader	RK3188Loader(L)_V2.19.bin
 parameter	parameter
 boot        Linux/boot-linux.img
 linuxroot	Linux/rootfs.img
