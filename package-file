@@ -1,11 +1,8 @@
-﻿# NAME		Relative path
+# NAME		Relative path
 #
 #HWDEF		HWDEF
 package-file	package-file
-bootloader	RK3188Loader(L)_V2.19.bin
+bootloader	RK3288UbootLoader_V2.19.01.bin
 parameter	parameter
-boot        Linux/boot-linux.img
+boot		Linux/boot-linux.img
 linuxroot	Linux/rootfs.img
-backup		RESERVED
-update-script	update-script
-recover-script	recover-script
